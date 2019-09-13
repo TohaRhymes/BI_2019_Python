@@ -13,7 +13,8 @@ def is_digit(string):
 print("Hello in my calculator. Type in:\n"
       "- integer operand,\n"
       "- operator (\'+\', \'-\', \'*\', \'/\', \'**\'(pow)), \n"
-      "- one more integer operand.")
+      "- one more integer operand."
+      "Type exit to exit.")
 stop = False
 while not stop:
     try:

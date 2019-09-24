@@ -81,6 +81,6 @@ while not stop:
                 print("You can't divide by zero.")
         elif operator == "**":
             print(a ** b)
-    except:
+    except ArithmeticError:
         print("Something went wrong.")
 print("Good bye!")

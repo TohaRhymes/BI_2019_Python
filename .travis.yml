@@ -2,13 +2,9 @@ dist: bionic
 language: python
 python:
   - "3.7"
-os:
-  - windows
-
 
 install:
   - pip install flake8
 
 script:
   - flake8 ./
-

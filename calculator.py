@@ -19,7 +19,7 @@ stop = False
 while not stop:
     try:
 
-        #input and check of a
+        # input and check of a
         nextInput = False
         while not nextInput:
             a = input()
@@ -66,17 +66,21 @@ while not stop:
                 nextInput = True
         if b == "exit":
             continue
-
+        a = float(a)
+        b = float(b)
         if operator == "+":
-            print(float(a) + float(b))
+            print(a + b)
         elif operator == "-":
-            print(float(a) - float(b))
+            print(a - b)
         elif operator == "*":
-            print(float(a) * float(b))
+            print(a * b)
         elif operator == "/":
-            print(float(a) / float(b))
+            if b != "0":
+                print(a / b)
+            else:
+                print("You can't divide by zero.")
         elif operator == "**":
-            print(float(a) ** float(b))
+            print(a ** b)
     except:
         print("Something went wrong.")
 print("Good bye!")

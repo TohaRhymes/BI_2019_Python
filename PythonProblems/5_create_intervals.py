@@ -14,7 +14,6 @@ def create_intervals(data):
     intervals_list.append((start_number, previous_number))
     return intervals_list
 
-
 # print(create_intervals({1, 2, 3, 4, 5, 7, 8, 12}) == [(1, 5), (7, 8), (12, 12)])
 # print(create_intervals({1, 2, 3, 6, 7, 8, 4, 5}) == [(1, 8)])
 # print(create_intervals({4}) == [(4, 4)])

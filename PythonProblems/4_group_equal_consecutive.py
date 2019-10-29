@@ -10,7 +10,6 @@ def group_equal(els):
             answer_list.append([el])
     return answer_list
 
-
 # print(group_equal([1, 1, 4, 4, 4, "hello", "hello", 4]) == [[1, 1], [4, 4, 4], ["hello", "hello"], [4]])
 # print(group_equal([1, 2, 3, 4]) == [[1], [2], [3], [4]])
 # print(group_equal([1]) == [[1]])

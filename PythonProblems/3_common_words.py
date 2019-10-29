@@ -11,7 +11,6 @@ def checkio(first, second):
         answer += word + ','
     return answer.strip(',')
 
-
 # print(checkio("hello,world", "hello,earth") == "hello")
 # print(checkio("one,two,three", "four,five,six") == "")
 # print(checkio("one,two,three", "four,five,one,two,six,three") == "one,three,two")
